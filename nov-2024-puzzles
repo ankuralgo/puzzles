@@ -59,3 +59,16 @@ Label accordingly:
 If an apple: The "mixed" jar is actually "apples only," meaning the "apples" jar is the mixed one, and the "oranges" jar remains oranges.
 If an orange: The "mixed" jar is "oranges only," making the "oranges" jar the mixed one, and the "apples" jar remains apples.
 By picking just one fruit, you can accurately label all three jars.
+
+
+#Problem 5
+Man Fell in Well Puzzle
+
+A man tumbled into a well. The well's depth is thirty meters. He is capable of climbing 4 meters in a day, yet he slips 3 meters. In what number of days would he emerge from the well?
+
+Similar to programming's iterative methods, this puzzle assesses your ability to break down a problem using small steps.
+
+The solution:
+
+On the first day, the man gains one meter overall after climbing four meters and slipping back three meters. 
+Thus, it continues until the 27th day, when he clambers from 27 to 31 meters above the ground and permanently exits the well without falling back in.
