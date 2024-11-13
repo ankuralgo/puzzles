@@ -72,3 +72,33 @@ The solution:
 
 On the first day, the man gains one meter overall after climbing four meters and slipping back three meters. 
 Thus, it continues until the 27th day, when he clambers from 27 to 31 meters above the ground and permanently exits the well without falling back in.
+
+#Probem 6
+Bag of Coins Puzzle
+You have ten bags of coins, but one bag contains counterfeit coins that are slightly heavier. How can you identify the counterfeit bag with the fewest weighings?
+
+This puzzle tests your ability to optimize a solution under constraints, similar to the challenges faced in algorithm design.
+
+Solution:
+
+Number the bags: Label each bag from 1 to 10.
+Take coins: From bag 1, take 1 coin; from bag 2, take 2 coins; and so on, up to 10 coins from bag 10.
+Weigh the coins: Place all the selected coins on a scale.
+Identify the counterfeit:
+If the weight is a whole number: All coins are genuine.
+If the weight is a decimal: The decimal part indicates the bag number of the counterfeit coins. For example, if the weight is 5.2 grams, bag 2 (with 2 coins) is the counterfeit one.
+By following this approach, you can pinpoint the counterfeit bag with a single weighing.
+
+
+#Probem 7
+Horses on a Race Track Puzzle
+
+Imagine you have 25 horses and 5 race tracks. Your goal is to find the top 3 fastest horses in the fewest number of races. 
+This is like figuring out the most efficient way to complete tasks in software development.
+
+Solution:
+
+Divide and Race: Split the horses into 5 groups of 5 and race each group.
+The Fastest Five: Take the winner from each group and race them together. The winner of this race is the fastest horse.
+Finding the Next Two: Race the horses that came second and third in the winning group's race, along with the next two fastest horses you've identified.
+By following these steps, you can find the top 3 horses in just 7 races.
