@@ -2,10 +2,29 @@ November Month Puzzle collection
 
 Category: Easy
 
-1. Google Interview Puzzle | Poisonous Milk Bottle | Simple yet Tricky 
+#Problem 1
 You’re locked in a room with no food. After two days, you’re given four bottles of milk, one of which is deadly poison. 
 To figure out which bottle is poisonous, you can give samples to a rat in the room. However, the poison takes ten hours to kill. 
 You only have 24 hours to drink three bottles of milk to survive. 
 How can you safely drink three bottles of milk and identify the poisonous one within this time limit?
 
 Solution: https://www.youtube.com/watch?v=hjR4cWR3I58 
+
+
+#Problem 2
+Imagine this: four people are stranded on one side of a rickety old bridge at night. To make matters worse, they only have one flashlight! 
+The bridge is narrow, so only two people can cross at a time. And here's the kicker: each person takes a different amount of time to cross – 1, 2, 7, and 10 minutes, respectively.
+
+How can they all get across the bridge in the shortest amount of time? This classic puzzle challenges you to think critically and optimize your solution. 
+It's a great exercise for anyone who wants to improve their problem-solving skills, especially in the context of software engineering, where efficiency is key.
+
+Spoiler Alert: The Solution
+
+To minimize the total time, the strategy is to pair the slowest people together whenever possible. Here's how:
+
+Send the two fastest across: The 1-minute and 2-minute people cross together (2 minutes).
+Send one fast person back: The 1-minute person returns with the flashlight (1 minute).
+Send the two slowest across: The 7-minute and 10-minute people cross together (10 minutes).
+Send the fastest person back: The 1-minute person returns with the flashlight (1 minute).
+Send the two fastest across: The 1-minute and 2-minute people cross together (2 minutes).
+By following this plan, all four people can safely cross the bridge in a total of 17 minutes.
