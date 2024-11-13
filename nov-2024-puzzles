@@ -68,7 +68,7 @@ The solution:
 On the first day, the man gains one meter overall after climbing four meters and slipping back three meters. 
 Thus, it continues until the 27th day, when he clambers from 27 to 31 meters above the ground and permanently exits the well without falling back in.
 
-#Probem 6
+#Problem 6
 Bag of Coins Puzzle
 You have ten bags of coins, but one bag contains counterfeit coins that are slightly heavier. How can you identify the counterfeit bag with the fewest weighings?
 
@@ -83,7 +83,7 @@ If the weight is a decimal: The decimal part indicates the bag number of the cou
 By following this approach, you can pinpoint the counterfeit bag with a single weighing.
 
 
-#Probem 7
+#Problem 7
 Horses on a Race Track Puzzle
 
 Imagine you have 25 horses and 5 race tracks. Your goal is to find the top 3 fastest horses in the fewest number of races. 
