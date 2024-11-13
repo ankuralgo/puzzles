@@ -43,3 +43,19 @@ The solution: Ask either guard, "If I asked the other guard which door leads to 
 If you ask the truth-teller: They'll honestly tell you the liar would point to the wrong door.
 If you ask the liar: They'll lie about what the truth-teller would say, also leading you to the wrong door.
 By asking this specific question, you can effectively bypass the deception and choose the correct door.
+
+
+#Problem 4
+Three Mislabeled Jars
+
+You're presented with three mislabeled jars. One jar holds only apples, another only oranges, and the last a mix of both. Your task: correctly label each jar with the fewest number of fruit picks.
+
+This puzzle tests your ability to optimize solutions under constraints, a common challenge in various algorithms.
+
+The Solution:
+
+Pick one fruit: Select a single piece of fruit from the jar labeled "mixed."
+Label accordingly:
+If an apple: The "mixed" jar is actually "apples only," meaning the "apples" jar is the mixed one, and the "oranges" jar remains oranges.
+If an orange: The "mixed" jar is "oranges only," making the "oranges" jar the mixed one, and the "apples" jar remains apples.
+By picking just one fruit, you can accurately label all three jars.
