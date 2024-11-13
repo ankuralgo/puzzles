@@ -36,8 +36,6 @@ Heaven or Hell Puzzle
 You're faced with a life-or-death choice: two doors, one leading to heaven and the other to hell. Standing guard by each door are two individuals, one always truthful, the other always deceitful. 
 You can only ask one question to one guard. What do you ask to ensure you choose the door to heaven?
 
-This puzzle challenges your ability to reason logically, even with limited information. This skill is invaluable when debugging complex systems or making decisions based on incomplete data.
-
 The solution: Ask either guard, "If I asked the other guard which door leads to heaven, what would they say?" Then, choose the opposite door.
 
 If you ask the truth-teller: They'll honestly tell you the liar would point to the wrong door.
@@ -49,8 +47,6 @@ By asking this specific question, you can effectively bypass the deception and c
 Three Mislabeled Jars
 
 You're presented with three mislabeled jars. One jar holds only apples, another only oranges, and the last a mix of both. Your task: correctly label each jar with the fewest number of fruit picks.
-
-This puzzle tests your ability to optimize solutions under constraints, a common challenge in various algorithms.
 
 The Solution:
 
@@ -66,7 +62,6 @@ Man Fell in Well Puzzle
 
 A man tumbled into a well. The well's depth is thirty meters. He is capable of climbing 4 meters in a day, yet he slips 3 meters. In what number of days would he emerge from the well?
 
-Similar to programming's iterative methods, this puzzle assesses your ability to break down a problem using small steps.
 
 The solution:
 
@@ -76,8 +71,6 @@ Thus, it continues until the 27th day, when he clambers from 27 to 31 meters abo
 #Probem 6
 Bag of Coins Puzzle
 You have ten bags of coins, but one bag contains counterfeit coins that are slightly heavier. How can you identify the counterfeit bag with the fewest weighings?
-
-This puzzle tests your ability to optimize a solution under constraints, similar to the challenges faced in algorithm design.
 
 Solution:
 
