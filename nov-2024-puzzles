@@ -95,3 +95,21 @@ Divide and Race: Split the horses into 5 groups of 5 and race each group.
 The Fastest Five: Take the winner from each group and race them together. The winner of this race is the fastest horse.
 Finding the Next Two: Race the horses that came second and third in the winning group's race, along with the next two fastest horses you've identified.
 By following these steps, you can find the top 3 horses in just 7 races.
+
+
+
+#Problem 8 
+Imagine 100 doors, all initially closed. 100 monkeys, one by one, are released to manipulate these doors. 
+The first monkey opens every door. The second closes every second door. The third toggles every third door (opening closed ones and closing open ones), and so on.
+
+After all monkeys have completed their tasks, which doors remain open?
+
+Solution:
+Let's consider a specific door, say door number 56. It will be affected by monkeys corresponding to its divisors (1, 2, 4, 7, 8, 14, 28, 56). 
+Each pair of divisors (like 1 and 56, 2 and 28, etc.) will result in the door's state being toggled twice, effectively canceling each other out. 
+However, for perfect squares (like 16, which has divisors 1, 2, 4, 4, 8, 16), there's an odd number of divisors, leaving the door open in the end.
+
+Therefore, only doors that are perfect squares will remain open after all the monkeys have finished their work.
+
+
+
