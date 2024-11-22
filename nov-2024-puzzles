@@ -112,4 +112,13 @@ However, for perfect squares (like 16, which has divisors 1, 2, 4, 4, 8, 16), th
 Therefore, only doors that are perfect squares will remain open after all the monkeys have finished their work.
 
 
+#Problem 9
+A blind man is alone on a deserted island. He has two blue pills and two red pills. He must take exactly one red pill and one blue pill or he will die.
+
+
+Solution:
+Firstly, break each of the pills in half, and as you do this pop one half in your mouth and lay the other half aside for tomorrow. 
+When he’s done this with all four pills he will have consumed one red pill and one blue pill. And have the same leftover.
+
+
 
