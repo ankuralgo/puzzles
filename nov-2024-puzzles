@@ -121,4 +121,17 @@ Firstly, break each of the pills in half, and as you do this pop one half in you
 When he’s done this with all four pills he will have consumed one red pill and one blue pill. And have the same leftover.
 
 
+#Problem 10
+There were 200 fishes in an aquarium, 99% of which were red.
+How many red fishes must be removed to make the percentage of red fishes 98%?
+
+Solution:
+Remove 100 fishes
+Total Fishes = 200
+Red fishes = 99% == 198
+Remove 100 red fishes
+so remaining total fishes = 100 and out of them 98 are RED.
+total: 100, red: 98, percent:98%
+
+
 
