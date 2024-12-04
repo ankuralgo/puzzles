@@ -198,7 +198,21 @@ The minimum no of steps are three.
 3. Either it will be black or white, we’ll have one pair complete.
 4. Even if we pick all three chocolates of the same colour, we will still have a pair, so three random picks are sufficient
 
- 
+
+
+#Problem 15
+The Bulb
+
+There are three switches in a room, out of which one controls a bulb in the next room. How often does one visit the next room to find out which switch lights on the bulb?
+
+Solution: 
+
+Flip on the 1st Switch and wait for 5 mins and then Flip on the 2nd switch and go into the room. 
+If the Bulb is on, it’s the second switch. 
+It is the first switch if the bulb is off but feels warm. 
+If it is neither warm nor on, it’s the third switch.
+So we need to visit the room only once to figure out which switch controls the bulb.
+
 
 References: 
 https://www.naukri.com/code360/guided-paths/top-150-interview-puzzles/content/273631/offering/3757346
