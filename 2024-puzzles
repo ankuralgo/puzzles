@@ -184,6 +184,22 @@ If you end up asking the truthful one, he will speak the truth, and he knows tha
 If you end up asking the question to the liar, he will lie about the other, and the answer will be the way to the treasure.
 
 
+#Problem 14
+The Chocolate Lover
+ 
+You have ten white chocolates and ten dark chocolates with no distinction in packaging. 
+What is the minimum number of draws at random, so one has two chocolates of the same type?
+
+ 
+Solution: 
+The minimum no of steps are three.
+1. Let say you draw a dark chocolate
+2. Let say you draw a white chocolate
+3. Either it will be black or white, we’ll have one pair complete.
+4. Even if we pick all three chocolates of the same colour, we will still have a pair, so three random picks are sufficient
+
+ 
+
 References: 
 https://www.naukri.com/code360/guided-paths/top-150-interview-puzzles/content/273631/offering/3757346
 
