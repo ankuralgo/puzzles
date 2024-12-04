@@ -133,5 +133,59 @@ Remove 100 red fishes
 so remaining total fishes = 100 and out of them 98 are RED.
 total: 100, red: 98, percent:98%
 
+#Problem 11
+Faulty Robot
+
+A company manufactures robots. Few robots are programmed to tell the truth no matter what, whereas others are programmed to lie. 
+So there are two communities in the factory, i.e. the Truth Community and the Lie Community.
+You meet with three robots and ask one of them which community do you belong to? 
+Robot 1 replies to something in binary that you don’t understand. The Second robot says that Robot 1 belongs to Lie Community. 
+The Third Robot says that the Second Robot is lying. Which community does the Third Robot belong to?
+
+Solution: 
+Let’s assume Robot 1 belongs to the Truth Community. If so, he will not lie and tell he’s from the truth community. In this case, Robot 2 is Lying, and Robot 3 is right about it. If Robot 1 belongs to the Lie Community, he will lie from Truth Community, which means Robot 2 is again lying, which makes Robot 3 again being right about it. 
+Therefore Robot 3 is from the “TRUTH COMMUNITY”.
+
+
+#Problem 12
+Black and White Hats
+
+One hundred students stand in line, one in front of the other, each wearing a black hat or a white hat. 
+Every student can see the hats of their classmate in front but not their hats or those worn by anyone behind. 
+The class teacher starts at the back of the line and asks each student the colour of their hat. If they answer correctly, they will pass the final exam. 
+If they get it wrong, they’ll fail. How many students will pass at most if they are allowed to discuss a strategy before their teacher starts asking the colours of their hats?
+
+Solution: 
+Ninety-nine students can pass the final exam by using a simple strategy. The students decide that the last standing student will count and shout the colour in odd numbers in front. 
+Going ahead, the other students can use simple maths to predict their hat colour. The 100th student also has a 50-50 chance.
+
+Ex: The 100th student sees the number of white hats in front is odd, so he says white. The 99th kid now counts the number of white hats in front. 
+If it is odd, then he has a white hat. Else he has the black hat, and similarly, other students can predict their cap colour.
+
+
+
+#Problem 13
+Money Heist
+
+You are at the Bank of Portugal. It has excellent security measures. There are 2 Locker Rooms. 
+One contains 1000 tons of Gold, whereas the other is an unescapable Police Trap. You being the Professor, have found a loophole. 
+The two guards securing the Gates are innocent and have a weird family tradition. One Guard never lies, and the other never speaks the truth. 
+You are disguised as an older man and can ask them no more than a question before becoming suspicious. 
+So what question do you ask any one of them and know the right room that contains the treasure and inform the gang can carry out the heist successfully?
+
+Solution: 
+
+Ask any guard, “What would the other guard say if I ask which way is to the Police Trap ?”
+And whatever answer he gives is the way to Treasure.
+
+Explanation:
+If you end up asking the truthful one, he will speak the truth, and he knows that another guard will lie so that he will show the way to the treasure.
+ 
+If you end up asking the question to the liar, he will lie about the other, and the answer will be the way to the treasure.
+
+
+References: 
+https://www.naukri.com/code360/guided-paths/top-150-interview-puzzles/content/273631/offering/3757346
+
 
 
