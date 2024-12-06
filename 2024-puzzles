@@ -236,6 +236,32 @@ So the series is: 1 1 2 3 5 8 13 21 34 55 89 144…
 
 So at the end of 12 months, we’ll have 144 pairs, i.e. 288 rabbits.
 
+
+#problem 14:
+
+Recover Data from Memory Card
+Suppose you have three memory cards, M1, M2, and M3, each with a 1GB capacity. You also have 3GB of data. 
+You have to divide these data into M1, M2, and M3 such that if any one of the memory cards among M1, M2, M3 got crashed, you should be able to recover all the data from the remaining two memory cards.
+For example, if M1 crashes, you should recover 3GB of data from M2 and M3.
+
+ 
+Solution:
+
+Suppose the 3GB data is divided into three groups, A, B, and C. Then the distribution would be like this.
+M1-> A^B
+M2-> B^C
+M3-> C^A
+Now suppose memory card M3 is crashed, and we are left with data of M1 and M2. As we know that
+M1 contains data which is the xor of A and B.
+M2 contains data which is the xor of B and C.
+We can perform the below steps to recover the whole data.
+
+Step 1: XOR of M1 and M2 gives (A^B)^(B^C) = B
+Step 2: XOR of this B which is obtained from step 1 with M1, gives (A^B)^B = A
+Step 3: XOR of this B which is obtained from step 1 with M2, gives (B^C)^C = C.
+
+Performing the steps as mentioned above will give the data A, B, and C.
+Similarly, we can perform these steps in the case of M1 and M2.
  
 
 References: 
